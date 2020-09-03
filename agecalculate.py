@@ -1,8 +1,9 @@
 from datetime import date
 
-input_year=int(input("input your year: "))
-input_month=int(input("input your month: "))
-input_day=int(input("input your day: "))
+name=input("enter your name: ")
+input_year=int(input("enter your year: "))
+input_month=int(input("enter your month: "))
+input_day=int(input("enter your day: "))
 
 first_time=date(input_year,input_month,input_day)
 current_time=date.today()
@@ -19,5 +20,6 @@ year=str(year)
 month=str(month)
 days=str(days)
 
+print("Hi " +name)
 print("You are " +year+ " years " +month+" months " +days+ " days old.")
 print("good luck on that buddy !!")
